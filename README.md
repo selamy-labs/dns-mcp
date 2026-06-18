@@ -1,5 +1,8 @@
 # dns-mcp
 
+[![CI](https://github.com/selamy-labs/dns-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/selamy-labs/dns-mcp/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 `dns-mcp` is a small, **provider-agnostic** [Model Context
 Protocol](https://modelcontextprotocol.io) server that exposes DNS record CRUD as
 typed tools: *list a zone's records, get one, and create / update / delete
