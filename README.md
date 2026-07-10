@@ -138,6 +138,9 @@ pipx install "dns-mcp[mcp] @ git+https://github.com/selamy-labs/dns-mcp@v0.1.0"
 
 ## Architecture
 
+See the [system context diagram](docs/architecture/system-context.md) for the
+current runtime boundary and the provider integration point.
+
 The DNS record logic lives once in `dns_mcp.core.DnsService`; the MCP server in
 `dns_mcp.mcp_server` is a thin wrapper that serialises structured results to JSON
 and maps expected failures to `ToolError`. All record access goes through an
